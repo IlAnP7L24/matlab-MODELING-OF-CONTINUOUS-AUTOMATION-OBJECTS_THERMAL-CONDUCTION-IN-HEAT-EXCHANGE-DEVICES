@@ -1,0 +1,11 @@
+T_a=600; T_b=300;
+a_a=30000; a_b=30000; c_b=415; ro_b=1000; Q_b=0.0425;
+a11=a_a+3*lamda/(b-a); a12=lamda/(b-a); a21=a12; a22=a_b+3*lamda/(b-a);
+A=[a11,a12;a21,a22];
+x=A^(-1)*[1;1]; x=x*4*lamda/(b-a); A1=x(1); B1=x(2);
+x=A^(-1)*[a_a;0];                  A2=x(1); B2=x(2);
+x=A^(-1)*[0;a_b];                  A3=x(1); B3=x(2);
+clear x;
+a0=4*lamda*(2-A1-B1)/(c*ro*(b-a)^2);
+b1=4*lamda*(A2+B2)/(c*ro*(b-a)^2);
+b2=4*lamda*(A3+B3)/(c*ro*(b-a)^2);
