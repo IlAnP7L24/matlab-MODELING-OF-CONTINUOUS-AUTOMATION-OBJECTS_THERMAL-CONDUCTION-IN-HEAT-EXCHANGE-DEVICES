@@ -64,3 +64,44 @@ Modeling the thermal conductivity of a flat wall of a heat exchange surface with
 (а) – Т0, (б) – Т1:
 
 ![image](https://github.com/IlAnP7L24/matlab-MODELING-OF-CONTINUOUS-AUTOMATION-OBJECTS_THERMAL-CONDUCTION-IN-HEAT-EXCHANGE-DEVICES/assets/158156829/276eddfd-3d85-4d24-95c0-47d3a2b69818)
+
+
+Task 5
+
+The differential equation (from the solution of the system of two linear algebraic equations with respect to the nodal values of temperature T0 and T2 at the boundary nodes of the grid) with variable substitution:
+
+![image](https://github.com/IlAnP7L24/matlab-MODELING-OF-CONTINUOUS-AUTOMATION-OBJECTS_THERMAL-CONDUCTION-IN-HEAT-EXCHANGE-DEVICES/assets/158156829/175a62f3-0623-4b3a-9fa7-6cc8c2ea5704)
+
+where, b0:
+
+![image](https://github.com/IlAnP7L24/matlab-MODELING-OF-CONTINUOUS-AUTOMATION-OBJECTS_THERMAL-CONDUCTION-IN-HEAT-EXCHANGE-DEVICES/assets/158156829/4e1249e8-6497-4f4e-aeba-d19d440e1d5c)
+
+and x(t):
+
+![image](https://github.com/IlAnP7L24/matlab-MODELING-OF-CONTINUOUS-AUTOMATION-OBJECTS_THERMAL-CONDUCTION-IN-HEAT-EXCHANGE-DEVICES/assets/158156829/8c464d9b-2555-4d0c-982e-246d36b5ec6b)
+
+
+Modeling of thermal conductivity of a flat wall of a heat exchange surface with boundary conditions of the third kind:
+
+![image](https://github.com/IlAnP7L24/matlab-MODELING-OF-CONTINUOUS-AUTOMATION-OBJECTS_THERMAL-CONDUCTION-IN-HEAT-EXCHANGE-DEVICES/assets/158156829/591a7318-3d8b-4916-8292-0915d52c23cb)
+
+(а) – Т0, (b) – T1, (c) – T2, (d) – T3:
+
+![image](https://github.com/IlAnP7L24/matlab-MODELING-OF-CONTINUOUS-AUTOMATION-OBJECTS_THERMAL-CONDUCTION-IN-HEAT-EXCHANGE-DEVICES/assets/158156829/3f864fca-570f-4f68-a216-cbf881aca05b)
+
+
+Task 6
+
+To regulate the temperature of the heated working medium, a PID regulator is used, which, when the temperature of the working medium at the outlet of the heat exchanger changes, accordingly changes the temperature of the heat carrier supplied at the entrance to the heat exchanger:
+
+![image](https://github.com/IlAnP7L24/matlab-MODELING-OF-CONTINUOUS-AUTOMATION-OBJECTS_THERMAL-CONDUCTION-IN-HEAT-EXCHANGE-DEVICES/assets/158156829/8769da5a-bd52-4f8c-bcfa-879ac356b5f9)
+
+kп, kд and kі are numerical parameters of the PID controller.
+
+Modeling of unsteady thermal conductivity of a flat wall with boundary conditions of the third kind, taking into account the influence of the PID controller:
+
+![image](https://github.com/IlAnP7L24/matlab-MODELING-OF-CONTINUOUS-AUTOMATION-OBJECTS_THERMAL-CONDUCTION-IN-HEAT-EXCHANGE-DEVICES/assets/158156829/23193538-8fad-447a-8bd7-4c87fafc202a)
+
+(a) – T0, (b) – T1, (c) – T2, (d) – T3:
+
+![image](https://github.com/IlAnP7L24/matlab-MODELING-OF-CONTINUOUS-AUTOMATION-OBJECTS_THERMAL-CONDUCTION-IN-HEAT-EXCHANGE-DEVICES/assets/158156829/1cc9ff4d-482f-4b8f-839c-e692eb595443)
