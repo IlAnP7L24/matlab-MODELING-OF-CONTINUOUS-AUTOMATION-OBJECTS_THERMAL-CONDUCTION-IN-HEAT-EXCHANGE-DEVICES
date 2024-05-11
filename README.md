@@ -13,11 +13,11 @@ For the limit values of temperature T0 and T2, in the case of boundary condition
 
 ![image](https://github.com/IlAnP7L24/matlab-MODELING-OF-CONTINUOUS-AUTOMATION-OBJECTS_THERMAL-CONDUCTION-IN-HEAT-EXCHANGE-DEVICES/assets/158156829/6a575382-8d5c-4f46-af33-fa56bfe39c6e)
 
-The heat conduction process in the flat wall of the heat exchange surface, which is characterized by a discrete mathematical model, can be represented using a dynamic link with a transfer function:
+The heat conduction process in the flat wall of the heat exchange surface, which is characterized by a discrete mathematical model, can be represented using a dynamic loop with a transfer function:
 
 ![image](https://github.com/IlAnP7L24/matlab-MODELING-OF-CONTINUOUS-AUTOMATION-OBJECTS_THERMAL-CONDUCTION-IN-HEAT-EXCHANGE-DEVICES/assets/158156829/bde04cd1-eff8-4dcf-b9f9-989ab8005655)
 
-Simulink models of unsteady thermal conductivity of a flat wall with boundary conditions of the first kind with stationary (a) and corresponding harmonic (b) and random (c) temperature changes at the edges:
+Simuloop models of unsteady thermal conductivity of a flat wall with boundary conditions of the first kind with stationary (a) and corresponding harmonic (b) and random (c) temperature changes at the edges:
 
 ![image](https://github.com/IlAnP7L24/matlab-MODELING-OF-CONTINUOUS-AUTOMATION-OBJECTS_THERMAL-CONDUCTION-IN-HEAT-EXCHANGE-DEVICES/assets/158156829/5391608a-d04b-4a77-8bb9-fd0742dd2d82)
 
